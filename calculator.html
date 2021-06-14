@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+          #header{
+     color: white;
+     background-color: rgb(240, 8, 8);
+     
+}
+        #logo{
+    font-size: 2rem;
+    margin-top: 7px;
+    font-family:cursive,appple chancery;
+}
+.pic1{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    border-radius: 50%;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    margin-top: 5px;
+}
+#menu li a:hover{
+    background-color: chocolate;
+    text-decoration: none;
+}
+#section1{
+    background-color: #ffcccc;
+    background: cover;
+    height: 600px;
+}
+.b1{
+    margin-top: 30px;
+    color: darkblue;
+    background-color: whitesmoke;
+    background-size: 100px;
+}
+
+#footer{
+    color:whitesmoke;
+    background-color:#7f8fa6 ;
+    height: 200px;
+    
+}
+.last{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+
+
+}
+.cal{
+    text-align: center;
+    margin-top: 20px;
+    background: palegreen;
+    width: 40%;
+    height: 530px;
+    border-radius: 15%;
+    display: center;
+    margin-left: 300px;
+    
+}
+table{
+    background-color: cyan;
+    margin: auto;
+    border-radius: 20px;
+    border-collapse: collapse;
+    
+    width:400px ;
+     margin-top: 2px;
+     
+}
+button{
+    margin-top: 5px;
+    background-color:palevioletred;
+    height: 70px;
+    width: 80px;
+    border-radius: 20px  ;
+    
+    
+}
+button:hover{
+    background-color: red;
+    text-decoration: none;
+}
+b{
+    font-size: 40px;
+    color: greenyellow;
+}
+#display{
+    height: 60px;
+    width: 400px;
+    border-radius:  20px;
+    border:solid 3px black;
+    font-size: 40px;
+    
+    
+
+}
+.number {
+    color: red;
+    font-size: 30px;
+}
+.email{
+    color:red;
+    font-size: 25px;
+}
+.Linkedine{
+    color: red;
+    font-size: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-4">
+                   <h1 id="logo"><img class="pic1" src="resumelogo.png"> AviResume</h1>   
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-right">
+                      <li><a href="AviResume.html" target="_self">Home</a></li>
+                      <!-- <li><a href="">About</a></li> 
+                      <li><a href="" >Education</a></li>
+                       <li><a href="">Skills</a></li>  -->
+                       <li><a href="resume.html"  target="_self">Resume</a></li>  
+                       <li><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+<div id="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="cal" >
+                <h1 >CALCULATOR</h1>
+                  <input type="text"  name="display" id="display">
+                <div class="cal1">
+                <table>
+                    <tr>
+                        <td><button><b>(</b></button></td>
+                        <td><button><b>)</b></button></td>
+                        <td><button><b>C</b></button></td>
+                        <td><button><b>%</b></button></td>
+                    </tr>
+                    <tr>
+                        <td><button><b>7</b></button></td>
+                        <td><button><b>8</b></button></td>
+                        <td><button><b>9</b></button></td>
+                        <td><button><b>/</b></button></td>
+                    </tr>
+                    <tr>
+                        <td><button><b>4</b></button></td>
+                        <td><button><b>5</b></button></td>
+                        <td><button><b>6</b></button></td>
+                        <td><button><b>X</b></button></td>
+                    </tr>
+                    <tr>
+                        <td><button><b>1</b></button></td>
+                        <td><button><b>2</b></button></td>
+                        <td><button><b>3</b></button></td>
+                        <td><button><b>+</b></button></td>
+                    </tr>
+                    <tr>
+                        <td><button><b>0</b></button></td>
+                        <td><button><b>.</b></button></td>
+                        <td><button><b>=</b></button></td>
+                        <td><button><b>-</b></button></td>
+                    </tr>
+                </table>
+                </div>
+
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+      
+
+
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12"> 
+                <h1 class="last">Contact</h1>
+            </div>
+            <div class="col-md-4" >
+                <div class="number">
+                    <p><i class="fa fa-mobile"></i>   8373728083</p></i>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="email">
+                <p><i class="fa fa-envelope"></i>   avinandank6@gmail.com</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="Linkedine">
+                <p><i class="fa fa-linkedin-square"></i>   www.linkedin.com/in/avinandan-kumar-ram/</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div> 
+</body>
+<script src="index.js"></script>
+</html>
